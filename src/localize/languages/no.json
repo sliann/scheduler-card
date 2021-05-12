@@ -1,69 +1,69 @@
 {
   "services": {
     "generic": {
-      "parameter_to_value": "{parameter} to {value}",
-      "action_with_parameter": "{action} with {parameter}"
+      "parameter_to_value": "{parameter} til {value}",
+      "action_with_parameter": "{action} med {parameter}"
     },
     "climate": {
-      "set_temperature": "sett temperatur[ to {temperature}]",
-      "set_temperature_hvac_mode_heat": "sett temperatur[ to {temperature}]",
-      "set_temperature_hvac_mode_cool": "sett temperatur[ to {temperature}]",
-      "set_hvac_mode": "set mode[ to {hvac_mode}]",
+      "set_temperature": "sett temperatur[ til {temperature}]",
+      "set_temperature_hvac_mode_heat": "sett temperatur[ til {temperature}]",
+      "set_temperature_hvac_mode_cool": "sett temperatur[ til {temperature}]",
+      "set_hvac_mode": "sett modus[ til {hvac_mode}]",
       "set_preset_mode": "set preset[ {preset_mode}]"
     },
     "cover": {
       "close_cover": "lukk",
       "open_cover": "åpne",
-      "set_cover_position": "sett posisjon[ to {position}]"
+      "set_cover_position": "sett posisjon[ til {position}]"
     },
     "fan": {
-      "set_speed": "set speed[ to {speed}]",
-      "set_direction": "set direction[ to {direction}]",
-      "oscillate": "set oscillation[ to {oscillate}]"
+      "set_speed": "sett hastighet[ til {speed}]",
+      "set_direction": "sett retning[ til {direction}]",
+      "oscillate": "sett svingning[ til {oscillate}]"
     },
     "humidifier": {
-      "set_humidity": "set humidity[ to {humidity}]"
+      "set_humidity": "sett luftfuktighet[ til {humidity}]"
     },
     "input_number": {
-      "set_value": "set value[ to {value}]"
+      "set_value": "sett verdi[ til {value}]"
     },
     "input_select": {
       "select_option": "select option[ {option}]"
     },
     "light": {
-      "turn_on": "slå på[ with {brightness} brightness]"
+      "turn_on": "slå på[ med {brightness} lysstyrke]"
     },
     "media_player": {
-      "select_source": "select source[ {source}]"
+      "select_source": "velg kilde[ {source}]"
     },
     "script": {
-      "script": "execute"
+      "script": "utfør"
     },
     "vacuum": {
       "start_pause": "start / pause"
     },
     "water_heater": {
-      "set_away_mode": "set away mode"
+      "set_away_mode": "sett til bortemodus"
     }
   },
   "domains": {
     "alarm_control_panel": "alarm control panel",
     "climate": "klima",
-    "cover": "covers",
+    "cover": "solskjerming",
     "fan": "vifter",
     "group": "groups",
-    "humidifier": "humidifiers",
+    "humidifier": "luftfuktere",
     "input_boolean": "input boolean",
     "input_number": "input number",
     "input_select": "input select",
     "light": "lys",
-    "lock": "locks",
+    "lock": "låser",
     "media_player": "media players",
     "scene": "scenes",
     "script": "scripts",
     "switch": "brytere",
     "vacuum": "støvsugere",
-    "water_heater": "water heaters"
+    "water_heater": "varmtvannsberedere"
   },
   "ui": {
     "components": {
@@ -71,18 +71,18 @@
         "day_types_short": {
           "daily": "hver dag",
           "workdays": "ukedager",
-          "weekend": "weekend"
+          "weekend": "helg"
         },
         "day_types_long": {
           "daily": "hver dag",
           "workdays": "ukedager",
-          "weekend": "weekend"
+          "weekend": "helg"
         },
         "days": "Dager",
-        "tomorrow": "tomorrow",
-        "repeated_days": "every {days}",
-        "repeated_days_except": "every day except {excludedDays}",
-        "days_range": "from {startDay} to {endDay}"
+        "tomorrow": "imorgen",
+        "repeated_days": "hver {days}",
+        "repeated_days_except": "hver dag unntatt {excludedDays}",
+        "days_range": "fra {startDay} til {endDay}"
       },
       "time": {
         "absolute": "at {time}",
